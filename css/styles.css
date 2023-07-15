@@ -114,9 +114,11 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #404bbf;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.active{
+  color: #404bbf; 
 }
 
 .nav a:active,
@@ -256,8 +258,7 @@ img {
 }
 .about-list {
   width: calc((100% - 72px) / 4);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+  }
 .about-logo{
   display: flex;
   justify-content: center;
@@ -596,9 +597,12 @@ height: 40px;
 }
 .card{
  position: relative; 
- overflow: hidden;
+ overflow: hidden; 
 }
 
+.container-portfolio:hover{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-sectoin {
   font-size: 16px;
   line-height: 1.5;
